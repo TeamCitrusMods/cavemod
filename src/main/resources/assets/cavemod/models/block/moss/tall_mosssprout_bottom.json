@@ -1,0 +1,6 @@
+{
+  "parent": "cavemod:block/base/double_cross",
+  "textures": {
+    "cross": "cavemod:block/moss/tall_mosssprout_bottom"
+  }
+}

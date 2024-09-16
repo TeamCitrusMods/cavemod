@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "cavemod:block/sweetwood/slab/bottom"
+    },
+    "type=double": {
+      "model": "cavemod:block/sweetwood/planks"
+    },
+    "type=top": {
+      "model": "cavemod:block/sweetwood/slab/top"
+    }
+  }
+}

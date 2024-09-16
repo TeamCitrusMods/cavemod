@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "cavemod:block/azalea/slab/bottom"
+    },
+    "type=double": {
+      "model": "cavemod:block/azalea/planks"
+    },
+    "type=top": {
+      "model": "cavemod:block/azalea/slab/top"
+    }
+  }
+}

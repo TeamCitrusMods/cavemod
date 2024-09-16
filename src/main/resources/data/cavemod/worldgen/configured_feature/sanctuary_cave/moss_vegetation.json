@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "cavemod:sanctuary_moss_carpet",
+            "Properties": {
+              "layers": 1
+            }
+          },
+          "weight": 25
+        },
+        {
+          "data": {
+            "Name": "cavemod:short_sanctuary_mosssprout"
+          },
+          "weight": 50
+        },
+        {
+          "data": {
+            "Name": "cavemod:small_sanctuary_bush"
+          },
+          "weight": 35
+        },
+        {
+          "data": {
+            "Name": "cavemod:tall_sanctuary_mosssprout",
+            "Properties": {
+              "half": "lower"
+            }
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "Name": "cavemod:large_sanctuary_bush",
+            "Properties": {
+              "half": "lower"
+            }
+          },
+          "weight": 10
+        }
+      ]
+    }
+  }
+}

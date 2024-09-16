@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "cavemod:block/sanctuary/tyrian_wart/stem_end",
+    "side": "cavemod:block/sanctuary/tyrian_wart/stem_side"
+  }
+}

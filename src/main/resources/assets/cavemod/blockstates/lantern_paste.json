@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "cavemod:block/lantern_paste",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "cavemod:block/lantern_paste",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "cavemod:block/lantern_paste",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "cavemod:block/lantern_paste",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "cavemod:block/lantern_paste"
+    },
+    "facing=west": {
+      "model": "cavemod:block/lantern_paste",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

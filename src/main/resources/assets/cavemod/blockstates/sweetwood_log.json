@@ -1,0 +1,59 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "cavemod:block/sweetwood/log/north"
+      },
+      "when": {
+        "north": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "cavemod:block/sweetwood/log/east"
+      },
+      "when": {
+        "east": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "cavemod:block/sweetwood/log/south"
+      },
+      "when": {
+        "south": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "cavemod:block/sweetwood/log/west"
+      },
+      "when": {
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "cavemod:block/sweetwood/log/up"
+      },
+      "when": {
+        "up": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "cavemod:block/sweetwood/log/down"
+      },
+      "when": {
+        "down": "true"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "cavemod:block/sweetwood/log/inside"
+        }
+      ]
+    }
+  ]
+}

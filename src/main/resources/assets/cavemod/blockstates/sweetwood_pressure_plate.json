@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "cavemod:block/sweetwood/pressure_plate/normal"
+    },
+    "powered=true": {
+      "model": "cavemod:block/sweetwood/pressure_plate/down"
+    }
+  }
+}

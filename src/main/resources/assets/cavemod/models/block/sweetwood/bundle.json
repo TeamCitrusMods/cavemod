@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "cavemod:block/sweetwood/bundle_end",
+    "side": "cavemod:block/sweetwood/bundle_side"
+  }
+}

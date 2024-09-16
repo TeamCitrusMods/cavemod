@@ -1,0 +1,21 @@
+{
+	"credit": "an ElysiaSilly creation :D",
+	"textures": {
+		"2": "cavemod:block/sweetwood/stripped_log",
+		"particle": "#2"
+	},
+	"elements": [
+		{
+			"from": [11, 5, 5],
+			"to": [16, 11, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [18, 4, 4]},
+			"faces": {
+				"north": {"uv": [0, 0, 6, 5], "rotation": 90, "texture": "#2"},
+				"east": {"uv": [6, 0, 12, 6], "texture": "#2", "cullface": "east"},
+				"south": {"uv": [6, 0, 0, 5], "rotation": 90, "texture": "#2"},
+				"up": {"uv": [6, 5, 0, 0], "rotation": 90, "texture": "#2"},
+				"down": {"uv": [6, 0, 0, 5], "rotation": 90, "texture": "#2"}
+			}
+		}
+	]
+}

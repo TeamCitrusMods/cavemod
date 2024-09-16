@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "cavemod:block/fossil_block/polished/slab/bottom"
+    },
+    "type=double": {
+      "model": "cavemod:block/fossil_block/polished"
+    },
+    "type=top": {
+      "model": "cavemod:block/fossil_block/polished/slab/top"
+    }
+  }
+}

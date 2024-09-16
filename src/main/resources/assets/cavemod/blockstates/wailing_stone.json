@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "cavemod:block/wailing_stone/1"
+      },{
+        "model": "cavemod:block/wailing_stone/2"
+      },{
+        "model": "cavemod:block/wailing_stone/3"
+      }
+    ]
+  }
+}

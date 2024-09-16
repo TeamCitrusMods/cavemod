@@ -1,0 +1,41 @@
+{
+	"credit": "an ElysiaSilly creation :D",
+	"render_type": "cutout",
+	"textures": {
+		"1": "cavemod:block/sweetwood/extra",
+		"2": "cavemod:block/sweetwood/log",
+		"particle": "#2"
+	},
+	"elements": [
+		{
+			"from": [5, 8, 0],
+			"to": [16, 8, 16],
+			"rotation": {"angle": 45, "axis": "x", "origin": [13, 8, 8]},
+			"faces": {
+				"up": {"uv": [0, 5, 16, 16], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [0, 5, 16, 16], "rotation": 270, "texture": "#1"}
+			}
+		},
+		{
+			"from": [5, 0, 8],
+			"to": [16, 16, 8],
+			"rotation": {"angle": 45, "axis": "x", "origin": [13, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 5, 16, 16], "rotation": 90, "texture": "#1"},
+				"south": {"uv": [0, 5, 16, 16], "rotation": 270, "texture": "#1"}
+			}
+		},
+		{
+			"from": [11, 5, 5],
+			"to": [16, 11, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [18, 4, 4]},
+			"faces": {
+				"north": {"uv": [0, 0, 6, 5], "rotation": 90, "texture": "#2"},
+				"east": {"uv": [6, 0, 12, 6], "texture": "#2", "cullface": "east"},
+				"south": {"uv": [6, 0, 0, 5], "rotation": 90, "texture": "#2"},
+				"up": {"uv": [6, 5, 0, 0], "rotation": 90, "texture": "#2"},
+				"down": {"uv": [6, 0, 0, 5], "rotation": 90, "texture": "#2"}
+			}
+		}
+	]
+}

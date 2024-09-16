@@ -1,0 +1,7 @@
+{
+  "parent": "cavemod:block/base/large_double_cross",
+  "textures": {
+    "left": "cavemod:block/moss/flowering_mosssprout/top_left",
+    "right": "cavemod:block/moss/flowering_mosssprout/top_right"
+  }
+}

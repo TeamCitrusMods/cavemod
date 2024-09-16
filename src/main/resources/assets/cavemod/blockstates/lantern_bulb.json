@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "active=true": {
+      "model": "cavemod:block/lantern_kelp/bulb_active"
+    },
+    "active=false": {
+      "model": "cavemod:block/lantern_kelp/bulb"
+    }
+  }
+}

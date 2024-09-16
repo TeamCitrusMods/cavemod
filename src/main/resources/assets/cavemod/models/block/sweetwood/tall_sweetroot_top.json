@@ -1,0 +1,6 @@
+{
+  "parent": "cavemod:block/base/double_cross",
+  "textures": {
+    "cross": "cavemod:block/sweetwood/tall_sweetroot_top"
+  }
+}

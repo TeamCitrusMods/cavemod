@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "cavemod:block/sweetwood/tall_sweetroot_bottom"
+    },
+    "half=upper": {
+      "model": "cavemod:block/sweetwood/tall_sweetroot_top"
+    }
+  }
+}

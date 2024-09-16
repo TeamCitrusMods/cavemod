@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "sealed=true": {
+      "model": "cavemod:block/stone_chest/sealed"
+    },
+    "sealed=false": {
+      "model": "cavemod:block/stone_chest/open"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "pattern=1": {
+      "model": "cavemod:block/pattern_block/1"
+    },
+    "pattern=2": {
+      "model": "cavemod:block/pattern_block/2"
+    },
+    "pattern=3": {
+      "model": "cavemod:block/pattern_block/3"
+    },
+    "pattern=4": {
+      "model": "cavemod:block/pattern_block/4"
+    },
+    "pattern=5": {
+      "model": "cavemod:block/pattern_block/5"
+    },
+    "pattern=6": {
+      "model": "cavemod:block/pattern_block/6"
+    },
+    "pattern=7": {
+      "model": "cavemod:block/pattern_block/7"
+    },
+    "pattern=8": {
+      "model": "cavemod:block/pattern_block/8"
+    },
+    "pattern=9": {
+      "model": "cavemod:block/pattern_block/9"
+    }
+  }
+}

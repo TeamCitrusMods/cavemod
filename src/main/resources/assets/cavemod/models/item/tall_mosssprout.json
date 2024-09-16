@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "cavemod:block/moss/tall_mosssprout_top"
+  }
+}

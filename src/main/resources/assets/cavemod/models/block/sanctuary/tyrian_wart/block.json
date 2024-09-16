@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "cavemod:block/sanctuary/tyrian_wart/block"
+  }
+}

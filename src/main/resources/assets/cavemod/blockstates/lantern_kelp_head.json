@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "bulb=true": {
+      "model": "cavemod:block/lantern_kelp/attached"
+    },
+    "bulb=false": {
+      "model": "cavemod:block/lantern_kelp/head"
+    }
+  }
+}

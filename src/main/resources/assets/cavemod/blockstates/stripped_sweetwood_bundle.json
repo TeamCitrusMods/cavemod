@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "cavemod:block/sweetwood/stripped_bundle_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "cavemod:block/sweetwood/stripped_bundle"
+    },
+    "axis=z": {
+      "model": "cavemod:block/sweetwood/stripped_bundle_horizontal",
+      "x": 90
+    }
+  }
+}

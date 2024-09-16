@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "facing=down": [{
+      "model": "cavemod:block/sanctuary/green_moss/shelf",
+      "x": 180
+    },{
+      "model": "cavemod:block/sanctuary/green_moss/shelf",
+      "x": 180,
+      "y": 90
+    }],
+    "facing=east": [{
+      "model": "cavemod:block/sanctuary/green_moss/shelf",
+      "x": 90,
+      "y": 90
+    },{
+      "model": "cavemod:block/sanctuary/green_moss/shelf",
+      "x": 90,
+      "y": 90
+    }],
+    "facing=north": [{
+      "model": "cavemod:block/sanctuary/green_moss/shelf",
+      "x": 90
+    },{
+      "model": "cavemod:block/sanctuary/green_moss/shelf",
+      "x": 90
+    }],
+    "facing=south": [{
+      "model": "cavemod:block/sanctuary/green_moss/shelf",
+      "x": 90,
+      "y": 180
+    },{
+      "model": "cavemod:block/sanctuary/green_moss/shelf",
+      "x": 90,
+      "y": 180
+    }],
+    "facing=up": [{
+      "model": "cavemod:block/sanctuary/green_moss/shelf"
+    },{
+      "model": "cavemod:block/sanctuary/green_moss/shelf",
+      "y": 90
+    }],
+    "facing=west": [{
+      "model": "cavemod:block/sanctuary/green_moss/shelf",
+      "x": 90,
+      "y": 270
+    },{
+      "model": "cavemod:block/sanctuary/green_moss/shelf",
+      "x": 90,
+      "y": 270
+    }]
+  }
+}

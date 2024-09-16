@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "cavemod:block/fossil_block/brick/slab/bottom"
+    },
+    "type=double": {
+      "model": "cavemod:block/fossil_block/brick"
+    },
+    "type=top": {
+      "model": "cavemod:block/fossil_block/brick/slab/top"
+    }
+  }
+}

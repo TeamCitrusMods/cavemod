@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "cavemod:block/fossil_block/block",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "cavemod:block/fossil_block/block"
+    },
+    "axis=z": {
+      "model": "cavemod:block/fossil_block/block",
+      "x": 90
+    }
+  }
+}

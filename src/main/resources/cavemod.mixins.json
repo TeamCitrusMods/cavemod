@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.elysiasilly.cavemod.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "${mod_id}.refmap.json",
+  "mixins": [
+    "FireBlockMixin",
+    "SkyLightEngineMixin"
+  ],
+  "client": [],
+  "minVersion": "0.8"
+}

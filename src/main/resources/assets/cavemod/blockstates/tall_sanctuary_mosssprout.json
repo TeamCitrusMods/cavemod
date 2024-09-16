@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "cavemod:block/sanctuary/tall_mosssprout_bottom"
+    },
+    "half=upper": {
+      "model": "cavemod:block/sanctuary/tall_mosssprout_top"
+    }
+  }
+}

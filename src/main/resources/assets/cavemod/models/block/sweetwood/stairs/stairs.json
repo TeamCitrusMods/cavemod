@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "cavemod:block/sweetwood/planks",
+    "side": "cavemod:block/sweetwood/planks",
+    "top": "cavemod:block/sweetwood/planks"
+  }
+}

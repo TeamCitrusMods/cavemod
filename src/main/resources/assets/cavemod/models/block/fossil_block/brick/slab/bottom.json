@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "cavemod:block/fossil_block/bricks",
+    "side": "cavemod:block/fossil_block/bricks",
+    "top": "cavemod:block/fossil_block/bricks"
+  }
+}

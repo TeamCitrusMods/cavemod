@@ -1,0 +1,39 @@
+{
+	"credit": "an ElysiaSilly creation :D",
+	"ambientocclusion": false,
+	"render_type": "cutout",
+	"textures": {
+		"1": "cavemod:block/sanctuary/green_moss/2",
+		"2": "cavemod:block/sanctuary/green_moss/2_extra",
+		"particle": "cavemod:block/sanctuary/green_moss/2"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0.1],
+			"to": [16, 16, 0.1],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 8, 0.1]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"south": {"uv": [16, 0, 0, 16], "texture": "#2"}
+			}
+		},
+		{
+			"from": [0, 0, 0.1],
+			"to": [16, 16, 0.1],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 8, 0.1]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"south": {"uv": [16, 0, 0, 16], "texture": "#2"}
+			}
+		},
+		{
+			"from": [0, 0, 0.1],
+			"to": [16, 16, 0.1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 0.1]},
+			"faces": {
+				"north": {"uv": [16, 0, 0, 16], "texture": "#1", "cullface": "north"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1"}
+			}
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "cavemod:block/sanctuary/tyrian_wart/0"
+    },
+    "age=1": {
+      "model": "cavemod:block/sanctuary/tyrian_wart/1"
+    },
+    "age=2": {
+      "model": "cavemod:block/sanctuary/tyrian_wart/1"
+    },
+    "age=3": {
+      "model": "cavemod:block/sanctuary/tyrian_wart/2"
+    }
+  }
+}

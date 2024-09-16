@@ -1,0 +1,141 @@
+{
+	"credit": "an ElysiaSilly creation :D",
+	"render_type": "cutout",
+	"textures": {
+		"2": "cavemod:block/lantern_kelp/tumorous_bulb_glow",
+		"extra": "cavemod:block/lantern_kelp/tumorous_bulb_extra",
+		"particle": "cavemod:block/lantern_kelp/tumorous_bulb",
+		"main": "cavemod:block/lantern_kelp/tumorous_bulb"
+	},
+	"elements": [
+		{
+			"name": "extra",
+			"from": [8, -6, -6],
+			"to": [8, 22, 22],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "z", "origin": [8, 8, 11]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#extra"},
+				"west": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#extra"}
+			}
+		},
+		{
+			"name": "extra",
+			"from": [-6, -6, 8],
+			"to": [22, 22, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "x", "origin": [11, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#extra"},
+				"south": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#extra"}
+			}
+		},
+		{
+			"name": "extra",
+			"from": [-6, -6, 8],
+			"to": [22, 22, 8],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "x", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#extra"},
+				"south": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#extra"}
+			}
+		},
+		{
+			"name": "extra",
+			"from": [-6, -6, 8],
+			"to": [22, 22, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#extra"},
+				"south": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#extra"}
+			}
+		},
+		{
+			"name": "extra",
+			"from": [-6, -6, 8],
+			"to": [22, 22, 8],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#extra"},
+				"south": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#extra"}
+			}
+		},
+		{
+			"name": "extra",
+			"from": [8, -6, -6],
+			"to": [8, 22, 22],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "z", "origin": [8, 8, 8]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#extra"},
+				"west": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#extra"}
+			}
+		},
+		{
+			"name": "main",
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#main", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#main", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#main", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#main", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#main", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#main", "cullface": "down"}
+			}
+		},
+		{
+			"name": "glow",
+			"from": [-0.1, -0.1, -0.1],
+			"to": [16.1, 16.1, 16.1],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [0.1, -0.1, -0.1]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#2", "cullface": "north", "emissivity": 15 },
+				"east": {"uv": [0, 0, 16, 16], "texture": "#2", "cullface": "east", "emissivity": 15 },
+				"south": {"uv": [0, 0, 16, 16], "texture": "#2", "cullface": "south", "emissivity": 15 },
+				"west": {"uv": [0, 0, 16, 16], "texture": "#2", "cullface": "west", "emissivity": 15 },
+				"up": {"uv": [0, 0, 16, 16], "texture": "#2", "cullface": "up", "emissivity": 15 },
+				"down": {"uv": [0, 0, 16, 16], "texture": "#2", "cullface": "down", "emissivity": 15 }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 225, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"head": {
+			"rotation": [0, 180, 0],
+			"translation": [0, 13, 7]
+		},
+		"fixed": {
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}

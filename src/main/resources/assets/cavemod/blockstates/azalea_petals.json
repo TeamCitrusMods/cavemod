@@ -1,0 +1,87 @@
+{
+  "multipart": [
+    {
+      "apply": [
+        {
+          "model": "cavemod:block/azalea_petals"
+        },{
+          "model": "cavemod:block/azalea_petals_tall"
+        }
+      ],
+      "when": {
+        "north": "true"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "cavemod:block/azalea_petals",
+          "y": 90
+        },{
+          "model": "cavemod:block/azalea_petals_tall",
+          "y": 90
+        }
+      ],
+      "when": {
+        "east": "true"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "cavemod:block/azalea_petals",
+          "y": 180
+        },{
+          "model": "cavemod:block/azalea_petals_tall",
+          "y": 180
+        }
+      ],
+      "when": {
+        "south": "true"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "cavemod:block/azalea_petals",
+          "y": 270
+        },{
+          "model": "cavemod:block/azalea_petals_tall",
+          "y": 270
+        }
+      ],
+      "when": {
+        "west": "true"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "cavemod:block/azalea_petals",
+          "x": 270
+        },{
+          "model": "cavemod:block/azalea_petals_tall",
+          "x": 270
+        }
+      ],
+      "when": {
+        "up": "true"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "cavemod:block/azalea_petals",
+          "x": 90
+        },
+        {
+          "model": "cavemod:block/azalea_petals_tall",
+          "x": 90
+        }
+      ],
+      "when": {
+        "down": "true"
+      }
+    }
+  ]
+}

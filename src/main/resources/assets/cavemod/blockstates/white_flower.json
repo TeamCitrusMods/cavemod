@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "cavemod:block/sanctuary/white_flower/bottom"
+    },
+    "half=upper": {
+      "model": "cavemod:block/sanctuary/white_flower/top"
+    }
+  }
+}

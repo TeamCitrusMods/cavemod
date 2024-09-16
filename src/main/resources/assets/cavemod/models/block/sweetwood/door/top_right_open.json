@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_right_open",
+  "textures": {
+    "bottom": "cavemod:block/sweetwood/door/bottom",
+    "top": "cavemod:block/sweetwood/door/top"
+  }
+}

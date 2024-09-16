@@ -1,0 +1,52 @@
+{
+	"credit": "an ElysiaSilly creation :D",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "cavemod:block/sanctuary/bush/bottom_left",
+		"1": "cavemod:block/sanctuary/bush/bottom_right",
+		"particle": "cavemod:block/sanctuary/bush/bottom_left"
+	},
+	"render_type": "cutout",
+	"elements": [
+		{
+			"from": [8, 0, 8],
+			"to": [22.4, 16, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1"}
+			}
+		},
+		{
+			"from": [-6.4, 0, 8],
+			"to": [8, 16, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [8, 0, 8],
+			"to": [8, 16, 22.4],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1"}
+			}
+		},
+		{
+			"from": [8, 0, -6.4],
+			"to": [8, 16, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		}
+	]
+}

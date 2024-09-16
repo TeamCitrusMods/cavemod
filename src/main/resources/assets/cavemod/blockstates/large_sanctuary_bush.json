@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "cavemod:block/sanctuary/large_bush_bottom"
+    },
+    "half=upper": {
+      "model": "cavemod:block/sanctuary/large_bush_top"
+    }
+  }
+}
